@@ -5,7 +5,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>b7654810-50e5-4ed8-9567-e3d50e79de7a</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>Cryptography.py</StartupFile>
+    <StartupFile>Programming2.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -23,6 +23,12 @@
   </PropertyGroup>
   <ItemGroup>
     <Compile Include="Cryptography.py" />
+    <Compile Include="Programming2.py" />
+    <Compile Include="Utils.py" />
+    <Compile Include="Week2.py" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Programming2" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.Common.targets" />
 </Project>
