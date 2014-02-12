@@ -24,8 +24,10 @@
   <ItemGroup>
     <Compile Include="Cryptography.py" />
     <Compile Include="Programming2.py" />
+    <Compile Include="Programming3.py" />
     <Compile Include="Utils.py" />
     <Compile Include="Week2.py" />
+    <Compile Include="Week3.py" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="Programming2" />
