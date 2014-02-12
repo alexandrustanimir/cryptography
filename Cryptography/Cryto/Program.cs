@@ -20,7 +20,6 @@ namespace Cryto
             string value = "attack at dawn";
             string cypher = "6c73d5240a948c86981bc294814d";
             Console.WriteLine(CryptoUtil.CryptoUtil.StringToHex(value));
-
             string key = CryptoUtil.CryptoUtil.XOROtp(CryptoUtil.CryptoUtil.StringToHex(value), cypher);
             string result = (CryptoUtil.CryptoUtil.XOROtp(CryptoUtil.CryptoUtil.StringToHex("attack at dust"), @key));
             Console.WriteLine(result);
@@ -104,7 +103,6 @@ namespace Cryto
                 Console.Write(Encoding.UTF8.GetString(toDecrypt));
             }
         }
-
         static void ProgrammingWeek2Q3()
         {
             string key = "36f18357be4dbd77f050515c73fcf9f2";
@@ -120,8 +118,6 @@ namespace Cryto
             }
 
         }
-
-
         static void ProgrammingWeek2Q4()
         {
             string key = "36f18357be4dbd77f050515c73fcf9f2";
