@@ -6,3 +6,11 @@ C:\Users\ALexandru\Source\src\Cryptography\Cryptography\Cryto\bin\Debug\CrytoUti
 C:\Users\ALexandru\Source\src\Cryptography\Cryptography\Cryto\obj\Debug\Cryto.csprojResolveAssemblyReference.cache
 C:\Users\ALexandru\Source\src\Cryptography\Cryptography\Cryto\obj\Debug\Cryto.exe
 C:\Users\ALexandru\Source\src\Cryptography\Cryptography\Cryto\obj\Debug\Cryto.pdb
+C:\Users\a.stanimir\source\cryptography\Cryptography\Cryto\bin\Debug\Cryto.exe.config
+C:\Users\a.stanimir\source\cryptography\Cryptography\Cryto\obj\Debug\Cryto.exe
+C:\Users\a.stanimir\source\cryptography\Cryptography\Cryto\obj\Debug\Cryto.pdb
+C:\Users\a.stanimir\source\cryptography\Cryptography\Cryto\bin\Debug\Cryto.exe
+C:\Users\a.stanimir\source\cryptography\Cryptography\Cryto\bin\Debug\Cryto.pdb
+C:\Users\a.stanimir\source\cryptography\Cryptography\Cryto\bin\Debug\CrytoUtil.dll
+C:\Users\a.stanimir\source\cryptography\Cryptography\Cryto\bin\Debug\CrytoUtil.pdb
+C:\Users\a.stanimir\source\cryptography\Cryptography\Cryto\obj\Debug\Cryto.csprojResolveAssemblyReference.cache
