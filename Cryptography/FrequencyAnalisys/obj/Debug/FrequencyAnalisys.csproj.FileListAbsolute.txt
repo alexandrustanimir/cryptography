@@ -1,0 +1,6 @@
+C:\Users\ALexandru\Source\cryptography\Cryptography\FrequencyAnalisys\obj\Debug\FrequencyAnalisys.csprojResolveAssemblyReference.cache
+C:\Users\ALexandru\Source\cryptography\Cryptography\FrequencyAnalisys\bin\Debug\FrequencyAnalisys.exe.config
+C:\Users\ALexandru\Source\cryptography\Cryptography\FrequencyAnalisys\bin\Debug\FrequencyAnalisys.exe
+C:\Users\ALexandru\Source\cryptography\Cryptography\FrequencyAnalisys\bin\Debug\FrequencyAnalisys.pdb
+C:\Users\ALexandru\Source\cryptography\Cryptography\FrequencyAnalisys\obj\Debug\FrequencyAnalisys.exe
+C:\Users\ALexandru\Source\cryptography\Cryptography\FrequencyAnalisys\obj\Debug\FrequencyAnalisys.pdb
