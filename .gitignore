@@ -11,3 +11,11 @@
 *.lai
 *.la
 *.a
+*.sln
+*.tlog
+*.lastbuildstate
+*.log
+*.pdb
+*.exe
+*.pdb
+*.dll
