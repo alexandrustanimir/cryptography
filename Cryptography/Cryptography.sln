@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2013
-VisualStudioVersion = 12.0.30723.0
+VisualStudioVersion = 12.0.31101.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "Cryptography", "Cryptography\Cryptography.pyproj", "{B7654810-50E5-4ED8-9567-E3D50E79DE7A}"
 EndProject
@@ -14,6 +14,27 @@ EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "OneTimePad", "OneTimePad\OneTimePad.vcxproj", "{F26C2FFA-D2F9-40A1-BA8D-33C8F2025297}"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "CrackVigenereLikeCipher", "CrackVigenereLikeCipher\CrackVigenereLikeCipher.vcxproj", "{B7575098-A9B2-42A8-92C4-4BA6E29BE959}"
+EndProject
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "FrequencyAnalisys", "http://localhost:57884", "{6A9E3B6B-BB17-4BAF-964D-BAC019E29F80}"
+	ProjectSection(WebsiteProperties) = preProject
+		UseIISExpress = "true"
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.0"
+		Debug.AspNetCompiler.VirtualPath = "/localhost_57884"
+		Debug.AspNetCompiler.PhysicalPath = "FrequencyAnalisys\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_57884\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/localhost_57884"
+		Release.AspNetCompiler.PhysicalPath = "FrequencyAnalisys\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_57884\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		SlnRelativePath = "FrequencyAnalisys\"
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -83,6 +104,16 @@ Global
 		{B7575098-A9B2-42A8-92C4-4BA6E29BE959}.Release|Mixed Platforms.Build.0 = Release|Win32
 		{B7575098-A9B2-42A8-92C4-4BA6E29BE959}.Release|Win32.ActiveCfg = Release|Win32
 		{B7575098-A9B2-42A8-92C4-4BA6E29BE959}.Release|Win32.Build.0 = Release|Win32
+		{6A9E3B6B-BB17-4BAF-964D-BAC019E29F80}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6A9E3B6B-BB17-4BAF-964D-BAC019E29F80}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6A9E3B6B-BB17-4BAF-964D-BAC019E29F80}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{6A9E3B6B-BB17-4BAF-964D-BAC019E29F80}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{6A9E3B6B-BB17-4BAF-964D-BAC019E29F80}.Debug|Win32.ActiveCfg = Debug|Any CPU
+		{6A9E3B6B-BB17-4BAF-964D-BAC019E29F80}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{6A9E3B6B-BB17-4BAF-964D-BAC019E29F80}.Release|Any CPU.Build.0 = Debug|Any CPU
+		{6A9E3B6B-BB17-4BAF-964D-BAC019E29F80}.Release|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{6A9E3B6B-BB17-4BAF-964D-BAC019E29F80}.Release|Mixed Platforms.Build.0 = Debug|Any CPU
+		{6A9E3B6B-BB17-4BAF-964D-BAC019E29F80}.Release|Win32.ActiveCfg = Debug|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
