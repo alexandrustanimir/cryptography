@@ -60,9 +60,9 @@ namespace CryptoUtil
 
             for (int i = 0; i < value.Length && i < key.Length; i++)
             {
-                uint char1 = (uint)value[i]-48;
-                uint char2 = (uint)key[i]-48;
-                sb.Append((char1 ^ char2));
+                uint char1 = (uint)value[i];
+                uint char2 = (uint)key[i];
+                sb.Append((char)(char1 ^ char2));
             }
             result = sb.ToString();
 

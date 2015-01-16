@@ -10,3 +10,9 @@ C:\Users\a.stanimir\source\cryptography\Cryptography\CrytoUtil\bin\Debug\CrytoUt
 C:\Users\a.stanimir\source\cryptography\Cryptography\CrytoUtil\obj\Debug\CrytoUtil.csprojResolveAssemblyReference.cache
 C:\Users\a.stanimir\source\cryptography\Cryptography\CrytoUtil\obj\Debug\CrytoUtil.dll
 C:\Users\a.stanimir\source\cryptography\Cryptography\CrytoUtil\obj\Debug\CrytoUtil.pdb
+C:\Users\ALexandru\Source\cryptography\Cryptography\CrytoUtil\bin\Debug\CrytoUtil.dll.config
+C:\Users\ALexandru\Source\cryptography\Cryptography\CrytoUtil\bin\Debug\CrytoUtil.dll
+C:\Users\ALexandru\Source\cryptography\Cryptography\CrytoUtil\bin\Debug\CrytoUtil.pdb
+C:\Users\ALexandru\Source\cryptography\Cryptography\CrytoUtil\obj\Debug\CrytoUtil.csprojResolveAssemblyReference.cache
+C:\Users\ALexandru\Source\cryptography\Cryptography\CrytoUtil\obj\Debug\CrytoUtil.dll
+C:\Users\ALexandru\Source\cryptography\Cryptography\CrytoUtil\obj\Debug\CrytoUtil.pdb

@@ -1,0 +1,8 @@
+C:\Users\ALexandru\Source\cryptography\Cryptography\PA2\bin\Debug\PA2.exe.config
+C:\Users\ALexandru\Source\cryptography\Cryptography\PA2\bin\Debug\PA2.exe
+C:\Users\ALexandru\Source\cryptography\Cryptography\PA2\bin\Debug\PA2.pdb
+C:\Users\ALexandru\Source\cryptography\Cryptography\PA2\obj\Debug\PA2.csprojResolveAssemblyReference.cache
+C:\Users\ALexandru\Source\cryptography\Cryptography\PA2\obj\Debug\PA2.exe
+C:\Users\ALexandru\Source\cryptography\Cryptography\PA2\obj\Debug\PA2.pdb
+C:\Users\ALexandru\Source\cryptography\Cryptography\PA2\bin\Debug\CrytoUtil.dll
+C:\Users\ALexandru\Source\cryptography\Cryptography\PA2\bin\Debug\CrytoUtil.pdb
