@@ -1,4 +1,5 @@
-﻿using System;
+﻿using FrequencyAnalisys;
+using System;
 using System.Collections.Generic;
 using System.Diagnostics;
 using System.Linq;
@@ -49,30 +50,52 @@ namespace PA2
                 CryptoUtil.CryptoUtil.HexToString("A6726DE8F01A50E849EDBC6C7C9CF2B2A88E19FD423E0647ECCB04DD4C9D1E"),
                 CryptoUtil.CryptoUtil.HexToString("BC7570BBBF1D46E85AF9AA6C7A9CEFA9E9825CFD5E3A0047F7CD009305A71E")
             };
-            string key = "";
-            for (int j = 0; j < 31; j++)
-            {
-                for (int l = 0; l < 31; l++)
-                    for (int k = 0; k < 256; k++)
-                    {
-                        bool ok = true;
-                        for (int i = 0; i < cyphers.Count; i++)
-                        {
-                            if ((cyphers[i][l] ^ k) < 97 || (cyphers[i][l] ^ k) > 122)
-                            {
-                                ok = false;
-                            }
-                        }
-                        if (ok == true)
-                        {
-                            key += (char)k;
-                            break;
-                        }
-                    }
-            }
+
+            string cypher = "";
+            cyphers.ForEach((string s) => cypher += s);
+            int keyLength = 31;
+            BruteforceFirstLetter(cyphers, keyLength);
+            for (int i = 29; i< 30;i++ )
+                BruteForceLetter(cyphers, keyLength,i);
+            char[] key = new char[]
+            { (char)242,(char)26,(char)4,(char)155,(char)208,(char)115,(char)35,(char)200,(char)57,(char)152,(char)206,(char)9,(char)14,(char)188,(char)134,(char)218,(char)201,(char)224,(char)57,(char)137,(char)42,(char)95,(char)114,(char)103,(char)131,(char)165,(char)97,(char)0,(char)0,(char)238,(char)48};
             foreach (var item in cyphers)
             {
-                Console.WriteLine(CryptoUtil.CryptoUtil.XOROtp(item, key));
+                Console.WriteLine(Utils.Decrypt(new string(key), item));
+            }
+            
+
+        }
+        /// <summary>
+        /// uppercase letter
+        /// </summary>
+        /// <param name="cyphers"></param>
+        /// <param name="keyLength"></param>
+        private static void BruteforceFirstLetter(List<string> cyphers, int keyLength)
+        {
+            string cypher = "";
+            cyphers.ForEach((string s) => cypher += s[0]);
+            for(int i = 0 ; i < 256;i++)
+            {
+                if(cypher.All(x=>(x ^ i) >=65 && (x ^ i) <=90))
+                { 
+                    Console.WriteLine(i);
+                    cypher.ToList().ForEach((char c) => Console.Write((char)(c ^ i)));
+                }
+            }
+        }
+        private static void BruteForceLetter(List<string> cyphers, int keyLength,int pos)
+        {
+            Console.WriteLine(string.Format("Letter {0}",pos));
+            string cypher = "";
+            cyphers.ForEach((string s) => cypher += s[pos]);
+            for (int i = 0; i < 256; i++)
+            {
+                if (cypher.All(x => (x ^ i) >= 32 && (x ^ i) <= 122))
+                {
+                    Console.WriteLine(i);
+                    cypher.ToList().ForEach((char c) => Console.Write((char)(c ^ i)));
+                }
             }
         }
     }
